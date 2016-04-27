@@ -14,6 +14,10 @@ class Person{
     }
 
     get lastName(){
-        this.lastName;
+        return this.lastName;
+    }
+
+    addPerson(){
+        console.log(this.firstName, this.lastName);
     }
 }
